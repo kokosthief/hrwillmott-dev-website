@@ -37,10 +37,10 @@ const ProjectCard = ({ title, link, imgUrl, number }) => {
             className="transform hover:scale-110  transition duration-3000 ease-out object-cover h-full w-full"
           />
         </div>
-        <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-[#334155] rounded-lg px-3">
+        <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-md bg-[#334155] rounded-lg px-3">
           {title}
         </h1>
-        <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+        <h1 className="absolute bottom-10 right-10 text-gray-50 font-bold text-xl">
           {number.length === 1 ? "0" + number : number}
         </h1>
       </div>

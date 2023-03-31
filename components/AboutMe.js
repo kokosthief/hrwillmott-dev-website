@@ -49,7 +49,7 @@ export default function AboutMe() {
                 Job Opportunities
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                I'm open to work as I learn best with going into the deep end, however atm happy fully focused on becoming more competent and building on my Web3 stack. Soon I'll update my{" "}
+                Whilst I continue to develop my tech stack I'm open to new opportunities. Ideally I'd love a Junior Dev role. Check my {" "}
                 <a
                   href={userData.resumeUrl}
                   target="__blank"
@@ -57,7 +57,7 @@ export default function AboutMe() {
                 >
                   CV
                 </a>{" "}
-                and we can talk about potential collaboration.
+                to see what I'm up to.
               </p>
             </div>
             {/* Social Links */}
