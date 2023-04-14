@@ -36,6 +36,25 @@ export default function FavouriteProjects() {
         <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
           {/* Single card */}
           <a
+            href="https://convert-rekordbox-cue-file-to-setlist.vercel.app/"
+            className="w-full block col-span-3 shadow-2xl"
+          >
+            <div className="relative overflow-hidden">
+              <img
+                src="/cue-to-text-converter.jpeg"
+                alt="cue to text converter rekordbox app"
+                className="transform hover:scale-125 transition duration-3000 ease-out"
+              />
+              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-cyan-700 rounded-md px-2">
+                Cue to Text Converter
+              </h1>
+              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+                01
+              </h1>
+            </div>
+          </a>
+          {/* Single card */}
+          <a
             href="http://portal.defirobot.org"
             className="w-full block col-span-3 shadow-2xl"
           >
@@ -46,7 +65,7 @@ export default function FavouriteProjects() {
                 className="transform hover:scale-125 transition duration-3000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-cyan-700 rounded-md px-2">
-                DeFi-Robot | Website
+                DeFi-Robot Website
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 02
@@ -56,7 +75,7 @@ export default function FavouriteProjects() {
           {/* Single card */}
           <a
             href="http://meerscan.org"
-            className="w-full block col-span-2 shadow-2xl"
+            className="w-full block col-span-1 shadow-2xl"
           >
             <div className="relative overflow-hidden">
               <img
@@ -65,10 +84,10 @@ export default function FavouriteProjects() {
                 className="transform hover:scale-125 transition duration-3000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-cyan-700 rounded-lg px-2">
-                Meerscan | ERC20 Token Launch + Website
+                Meerscan Token
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-                02
+                03
               </h1>
             </div>
           </a>
@@ -81,15 +100,15 @@ export default function FavouriteProjects() {
             <div className="relative overflow-hidden shadow-2xl">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
               <img
-                src="/drbtbanner.png"
-                alt="drbt-banner"
+                src="/drbt-documentation.jpeg"
+                alt="drbt documentation"
                 className="transform hover:scale-125 transition duration-3000 ease-out object-cover shadow-2xl"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-cyan-700 rounded-md px-2">
-                DeFi-Robot | Documentation
+                DeFi-Robot Documentation
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-                03
+                04
               </h1>
             </div>
           </a>
@@ -102,14 +121,14 @@ export default function FavouriteProjects() {
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
               <img
                 src="/roetz.gif"
-                alt="portfolio"
+                alt="roetz-bike landing page"
                 className="transform hover:scale-125 transition duration-3000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-cyan-700 rounded-md px-2">
-                Roetz-Bikes | Landing Page
+                Roetz-Bikes Landing Page
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-                04
+                05
               </h1>
             </div>
           </a>
