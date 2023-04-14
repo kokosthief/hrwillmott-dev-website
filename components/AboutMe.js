@@ -15,7 +15,8 @@ export default function AboutMe() {
             className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
             style={{ lineHeight: "3rem" }}
           >
-            {userData.about.title}. Look... I Just made this:{" "}
+            {userData.about.title}.<br /> <br />
+            Look I Just made this:{" "}
             <a
               className="bg-red-500 rounded-md px-2 py-1 text-white"
               href={userData.about.currentProjectUrl}
@@ -49,7 +50,12 @@ export default function AboutMe() {
                 Job Opportunities
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                Whilst I continue to develop my tech stack I'm open to new opportunities. Ideally I'd love a Junior Dev role. Check my {" "}
+                Whilst I continue to develop my tech stack I'm open to new
+                opportunities. Ideally I'd love a Junior Dev role where I can
+                delve deep into a problems to solve, ideally with some
+                mentorship. <br />
+                <br />
+                Check my{" "}
                 <a
                   href={userData.resumeUrl}
                   target="__blank"
@@ -69,7 +75,8 @@ export default function AboutMe() {
                 <a
                   href={userData.socialLinks.twitter}
                   className="flex flex-row items-center space-x-4 group"
-                  target="_blank" rel="noopener noreferrer"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <div className="my-4">&rarr;</div>
                   <div className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
@@ -82,7 +89,8 @@ export default function AboutMe() {
                 <a
                   href={userData.socialLinks.linkedin}
                   className="flex flex-row items-center space-x-4 group"
-                  target="_blank" rel="noopener noreferrer"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <div className="my-4">&rarr;</div>
                   <div className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
@@ -95,7 +103,8 @@ export default function AboutMe() {
                 <a
                   href={userData.socialLinks.github}
                   className="flex flex-row items-center space-x-4 group"
-                  target="_blank" rel="noopener noreferrer"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <div className="my-4">&rarr;</div>
                   <div className="text-lg text-gray-500  font-mono relative overflow-hidden dark:text-gray-300">
@@ -104,7 +113,7 @@ export default function AboutMe() {
                   </div>
                 </a>
               </div>
-              <div className="flex flex-row justify-start items-center">
+              <div className="flex flex-row justify-start items-center cursor-help">
                 <a
                   href={userData.socialLinks.instagram}
                   className="flex flex-row items-center space-x-4 group"
@@ -116,7 +125,7 @@ export default function AboutMe() {
                   </div>
                 </a>
               </div>
-              <div className="flex flex-row justify-start items-center ">
+              <div className="flex flex-row justify-start items-center cursor-help ">
                 <a
                   href={userData.socialLinks.facebook}
                   className="flex flex-row items-center space-x-4 group"

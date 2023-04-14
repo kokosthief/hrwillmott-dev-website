@@ -1,39 +1,39 @@
 const userData = {
   githubUsername: "kokosthief",
   name: "Henry Willmott",
-  designation: "Web3 Dev (in training)",
+  designation: "Front End Developer",
   avatarUrl: "/avatar.png",
   email: "hello@hrwillmott.com",
   phone: "+31683421604",
   address: "Amsterdam, The Netherlands",
   projects: [
     {
-      title: "Rekordbox CUE file Converter",
+      title: "CUE to Text Converter",
       link: "https://convert-rekordbox-cue-file-to-setlist.vercel.app/",
-      imgUrl: "rekordbox-cue-file-sconverter.jpeg",
+      imgUrl: "/cue-to-text-converter.jpeg",
     },
     {
-      title: "Meerscan - Memecoin",
+      title: "Meerscan Token",
       link: "https://meerscan.org",
       imgUrl: "/meerscan-website.jpeg",
     },
     {
-      title: "DeFi-Robot - Website",
+      title: "DeFi-Robot Website",
       link: "https://portal.defirobot.org/",
       imgUrl: "/drbt-website.jpeg",
     },
     {
       title: "This Portfolio",
       link: "https://hrwillmott.com",
-      imgUrl: "/portfoliodev.png",
+      imgUrl: "/portfoliodev.jpeg",
     },
     {
-      title: "DeFi-Robot - Documentation",
+      title: "DeFi-Robot Documentation",
       link: "https://docs.defirobot.org/",
-      imgUrl: "/drbtbanner.png",
+      imgUrl: "/drbt-documentation.jpeg",
     },
     {
-      title: "A-Bike Spain",
+      title: "A-Bike Spain Shop",
       link: "https://a-bike.es",
       imgUrl: "/a-bike-spain.jpeg",
     },
@@ -47,26 +47,27 @@ const userData = {
     title:
       "Because I've discovered I love to code and I get to work on pretty cool projects.",
     description: [
-      `I have a theory anyone can code...`,
-      `Because it's like cooking in ways...`,
-      `Often people say they can't cook! But it's not really about that, if they CAN. Those people just don't want to do it.`,
-      `Personally, I may not know all the languages and be familiar with a tonne of dependancies, but it doesn't mean I can't code.`,
-      `Because I want to code, I figure things out, I find solutions, I make it taste nice sometimes. It doesn't matter if I know recipes off by heart.`,
-      `For be I love to code, because I get to experiment, problem solve, ask questions, reflect. And the more I do it, the better it tastes.`,
-      // `What's important for me in life is to be reflective, open and continuously developing. is to continue learning with interest. Development and crypto interests me the most.`,
-      // `My creative background has served me well, from making films to running ads, as now I get to combine design and the new found love challenge of coding as I aim to be a web3 dev.`,
-      // `I'm involved with crypto projects and love the space. Therefore very excited by this career trajectory.`,
+      "Alright folks, listen up! Here's my theory - ANYONE can code. Yeah, you heard me right. It's just like cooking in a lot of ways.",
+
+      "You know how people say they can't cook? Well, it's not necessarily because they can't cook. It's because they don't want to do it!",
+
+      "Now personally, I may not be fluent in all the programming languages out there or know every damn dependency, but that doesn't mean I can't code.",
+
+      "The thing is, when you WANT to code, you figure things out. You find solutions. You make it taste nice sometimes. It's not about memorizing every recipe out there.",
+
+      "For me, coding is like a passion. I love experimenting, problem-solving, asking questions, and reflecting on what I've learned. And the more I do it, the better it tastes.",
     ],
-    currentProject: "DeFi-Robot Website",
-    currentProjectUrl: "https://portal.defirobot.org/",
+    currentProject: "CUE to Text Converter",
+    currentProjectUrl:
+      "https://convert-rekordbox-cue-file-to-setlist.vercel.app/",
   },
   experience: [
     {
-      title: "Web3 Developer (in-training)",
+      title: "Front End Developer",
       company: "HRW",
       year: "2022",
-      companyLink: "https://portal.defirobot.org/",
-      desc: "Whilst I train as a dev, I've already made websites by getting involved with numerouse crypto projects and got into community management, technical documentation and more...",
+      companyLink: "https://www.linkedin.com/in/henrywillmott/",
+      desc: "Whilst I've been getting better as a developer, I've already made websites and contributed to really cool crypto projects in different ways like, modding, writing technical docs and more...",
     },
     {
       title: "Ecstatic Dance DJ",
@@ -114,12 +115,11 @@ const userData = {
   resumeUrl:
     "https://docs.google.com/document/d/1BDyOEn-epkepV0qCAoAfisYJHZSisGR0GLgUAflhxJg/edit?usp=sharing",
   socialLinks: {
-    
     linkedin: "https://www.linkedin.com/in/henrywillmott/",
     telegram: "https://t.me/kokosthief",
     twitter: "https://twitter.com/kokosthief",
     soundcloud: "https://soundcloud.com/henry-ecstatic-dance",
-    github: "https://github.com/kokosthief"
+    github: "https://github.com/kokosthief",
   },
 };
 
