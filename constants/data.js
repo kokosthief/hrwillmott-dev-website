@@ -8,6 +8,11 @@ const userData = {
   address: "Amsterdam, The Netherlands",
   projects: [
     {
+      title: "AlphaBotCalls",
+      link: "https://alphabotcalls.com/",
+      imgUrl: "/abc.jpeg",
+    },
+    {
       title: "CUE to Text Converter",
       link: "https://convert-rekordbox-cue-file-to-setlist.vercel.app/",
       imgUrl: "/cue-to-text-converter.jpeg",
