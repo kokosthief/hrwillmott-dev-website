@@ -8,6 +8,11 @@ const userData = {
   address: "Amsterdam, The Netherlands",
   projects: [
     {
+      title: "DJ Henners",
+      link: "https://dj.henners.bio/",
+      imgUrl: "/djhenners.jpeg",
+    },
+    {
       title: "AlphaBotCalls",
       link: "https://alphabotcalls.com/",
       imgUrl: "/abc.jpeg",
@@ -123,7 +128,7 @@ const userData = {
     linkedin: "https://www.linkedin.com/in/henrywillmott/",
     telegram: "https://t.me/kokosthief",
     twitter: "https://twitter.com/kokosthief",
-    soundcloud: "https://soundcloud.com/henry-ecstatic-dance",
+    soundcloud: "https://soundcloud.com/henners-ecstatic-dance",
     github: "https://github.com/kokosthief",
   },
 };
