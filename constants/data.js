@@ -1,7 +1,7 @@
 const userData = {
   githubUsername: "kokosthief",
   name: "Henry Willmott",
-  designation: "All Round Developer",
+  designation: "Full-Stack Developer",
   avatarUrl: "/avatar.png",
   email: "hello@hrwillmott.com",
   phone: "+31683421604",
@@ -72,24 +72,24 @@ const userData = {
 
       "For me, coding is like a passion. I love experimenting, problem-solving, asking questions, and reflecting on what I've learned. And the more I do it, the better it tastes.",
     ],
-    currentProject: "CUE to Text Converter",
+    currentProject: "Odessa Amsterdam Staff Portal",
     currentProjectUrl:
-      "https://convert-rekordbox-cue-file-to-setlist.vercel.app/",
+      "https://portal.odessa.amsterdam/",
   },
   experience: [
     {
-      title: "All Round Developer",
+      title: "All Round Full-Stack Developer",
       company: "HRW",
-      year: "2025",
+      year: "2024",
       companyLink: "https://www.linkedin.com/in/henrywillmott/",
-      desc: "Building scalable apps and full-stack solutions, turning ideas into reality. Not just frontend anymore—capable of handling everything needed to bring projects to life.",
+      desc: "Building scalable apps and full-stack solutions, turning ideas into reality.",
     },
     {
       title: "Front End Developer",
       company: "HRW",
       year: "2022",
       companyLink: "https://www.linkedin.com/in/henrywillmott/",
-      desc: "Whilst I've been getting better as a developer, I've already made websites and contributed to really cool crypto projects in different ways like, modding, writing technical docs and more...",
+      desc: "Front end focus on the creation of websites and contributions to really cool web3 projects.",
     },
     {
       title: "Ecstatic Dance DJ",
@@ -137,10 +137,10 @@ const userData = {
   resumeUrl:
     "https://docs.google.com/document/d/1BDyOEn-epkepV0qCAoAfisYJHZSisGR0GLgUAflhxJg/edit?usp=sharing",
   socialLinks: {
-    linkedin: "https://www.linkedin.com/in/henrywillmott/",
+    linkedin: "https://www.linkedin.com/in/hrwillmott/",
     telegram: "https://t.me/kokosthief",
-    twitter: "https://twitter.com/kokosthief",
-    soundcloud: "https://soundcloud.com/henners-ecstatic-dance",
+    twitter: "http://x.com/hennerrrss",
+    soundcloud: "https://soundcloud.com/henners_music",
     github: "https://github.com/kokosthief",
   },
 };
