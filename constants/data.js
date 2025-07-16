@@ -1,12 +1,17 @@
 const userData = {
   githubUsername: "kokosthief",
   name: "Henry Willmott",
-  designation: "Front End Developer",
+  designation: "All Round Developer",
   avatarUrl: "/avatar.png",
   email: "hello@hrwillmott.com",
   phone: "+31683421604",
   address: "Amsterdam, The Netherlands",
   projects: [
+    {
+      title: "Odessa Amsterdam Staff Portal",
+      link: "https://portal.odessa.amsterdam/",
+      imgUrl: "/odessa-portal.jpeg",
+    },
     {
       title: "DJ Henners",
       link: "https://dj.henners.bio/",
@@ -72,6 +77,13 @@ const userData = {
       "https://convert-rekordbox-cue-file-to-setlist.vercel.app/",
   },
   experience: [
+    {
+      title: "All Round Developer",
+      company: "HRW",
+      year: "2025",
+      companyLink: "https://www.linkedin.com/in/henrywillmott/",
+      desc: "Building scalable apps and full-stack solutions, turning ideas into reality. Not just frontend anymore—capable of handling everything needed to bring projects to life.",
+    },
     {
       title: "Front End Developer",
       company: "HRW",
