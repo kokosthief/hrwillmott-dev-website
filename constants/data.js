@@ -60,17 +60,17 @@ const userData = {
   ],
   about: {
     title:
-      "Because I've discovered I love to code and I get to work on pretty cool projects.",
+      "Building Apps to Streamline Businesses and Boost Efficiency",
     description: [
-      "Alright folks, listen up! Here's my theory - ANYONE can code. Yeah, you heard me right. It's just like cooking in a lot of ways.",
-
-      "You know how people say they can't cook? Well, it's not necessarily because they can't cook. It's because they don't want to do it!",
-
-      "Now personally, I may not be fluent in all the programming languages out there or know every damn dependency, but that doesn't mean I can't code.",
-
-      "The thing is, when you WANT to code, you figure things out. You find solutions. You make it taste nice sometimes. It's not about memorizing every recipe out there.",
-
-      "For me, coding is like a passion. I love experimenting, problem-solving, asking questions, and reflecting on what I've learned. And the more I do it, the better it tastes.",
+      "I love coding because it’s my tool to simplify chaos and supercharge businesses.",  
+      
+      "There’s nothing more satisfying than turning complex processes into seamless, automated systems.",  
+      
+      "Whether it’s building a full-scale app or optimizing workflows, I thrive on solving problems and saving time for teams.",  
+      
+      "My current project, the Odessa Amsterdam Staff Portal, helps DJs and managers schedule effortlessly so they can focus on creating unforgettable experiences.",  
+      
+      "Coding isn’t just my skill—it’s how I make businesses run smarter and smoother.", 
     ],
     currentProject: "Odessa Amsterdam Staff Portal",
     currentProjectUrl:
@@ -89,7 +89,7 @@ const userData = {
       company: "HRW",
       year: "2022",
       companyLink: "https://www.linkedin.com/in/henrywillmott/",
-      desc: "Front end focus on the creation of websites and contributions to really cool web3 projects.",
+      desc: "Front end focus on the creation of websites and contributions to super cool web3 projects.",
     },
     {
       title: "Ecstatic Dance DJ",
@@ -103,7 +103,7 @@ const userData = {
       company: "Roetz-Bikes",
       year: "2021",
       companyLink: "https://roetz-bikes.com/",
-      desc: "My first introduction of HTML, CSS & Javascript. Loved every part of the job working on a common goal of circularity.",
+      desc: "First time I get into coding w/ basiscs of HTML, CSS & Javascript etc., loved every part of the job working on a common goal of circularity.",
     },
     {
       title: "Start-up Marketer",
