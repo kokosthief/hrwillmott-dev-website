@@ -70,7 +70,7 @@ const userData = {
   ],
   about: {
     title:
-      "Building Apps to Streamline Businesses and Boost Efficiency",
+      "because building and bringing ideas to life is damn satisfying ",
     description: [
       "I love coding because it’s my tool to simplify chaos and supercharge businesses.",  
       
