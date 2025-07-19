@@ -36,17 +36,17 @@ export default function FavouriteProjects() {
         <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
           {/* Single card */}
           <a
-            href="https://convert-rekordbox-cue-file-to-setlist.vercel.app/"
+            href="https://team.odessa.amsterdam/"
             className="w-full block col-span-3 shadow-2xl"
           >
             <div className="relative overflow-hidden">
               <img
-                src="/cue-to-text-converter.jpeg"
+                src="/odessa-portal.jpg"
                 alt="cue to text converter rekordbox app"
                 className="transform hover:scale-125 transition duration-3000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-cyan-700 rounded-md px-2">
-                Cue to Text Converter
+                Odessa Team Manaagement App
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 01
@@ -74,17 +74,17 @@ export default function FavouriteProjects() {
           </a>
           {/* Single card */}
           <a
-            href="http://meerscan.org"
+            href="https://ropacs.vercel.app/"
             className="w-full block col-span-1 shadow-2xl"
           >
             <div className="relative overflow-hidden">
               <img
-                src="/meerscan-website.jpeg"
+                src="/ropacs.jpg"
                 alt="portfolio"
                 className="transform hover:scale-125 transition duration-3000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-cyan-700 rounded-lg px-2">
-                Meerscan Token
+                ROPACS - Rope Access
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 03
