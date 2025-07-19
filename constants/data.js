@@ -9,7 +9,7 @@ const userData = {
   projects: [
     {
       title: "Odessa Amsterdam Staff Portal",
-      link: "https://portal.odessa.amsterdam/",
+      link: "https://team.odessa.amsterdam/",
       imgUrl: "/odessa-portal.jpeg",
     },
     {
@@ -18,19 +18,24 @@ const userData = {
       imgUrl: "/djhenners.jpeg",
     },
     {
+      title: "Alfa Society Dapp",
+      link: "https://alfa-airdrop-bot-dapp-reedmjb4r-kokosthief.vercel.app/",
+      imgUrl: "/alfa-society-dapp.jpg",
+    },
+    {
       title: "AlphaBotCalls",
-      link: "https://alphabotcalls.com/",
+      link: "https://abc-landingpage.vercel.app/",
       imgUrl: "/abc.jpeg",
     },
     {
       title: "CUE to Text Converter",
-      link: "https://convert-rekordbox-cue-file-to-setlist.vercel.app/",
+      link: "https://convert-rekordbox-cue-files-to-text.vercel.app/",
       imgUrl: "/cue-to-text-converter.jpeg",
     },
     {
-      title: "Meerscan Token",
-      link: "https://meerscan.org",
-      imgUrl: "/meerscan-website.jpeg",
+      title: "Tweet Signal",
+      link: "https://tweet-signal-git-main-kokosthief.vercel.app/",
+      imgUrl: "/tweet-signal.jpg",
     },
     {
       title: "DeFi-Robot Website",
@@ -39,7 +44,7 @@ const userData = {
     },
     {
       title: "This Portfolio",
-      link: "https://hrwillmott.com",
+      link: "https://dev.hrwillmott.com",
       imgUrl: "/portfoliodev.jpeg",
     },
     {
@@ -72,9 +77,9 @@ const userData = {
       
       "Coding isn’t just my skill—it’s how I make businesses run smarter and smoother.", 
     ],
-    currentProject: "Odessa Amsterdam Staff Portal",
+    currentProject: "Odessa Amsterdam Management Web App",
     currentProjectUrl:
-      "https://portal.odessa.amsterdam/",
+      "https://team.odessa.amsterdam/",
   },
   experience: [
     {
