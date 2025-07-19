@@ -10,7 +10,7 @@ const userData = {
     {
       title: "Odessa Amsterdam Staff Portal",
       link: "https://team.odessa.amsterdam/",
-      imgUrl: "/odessa-portal.jpeg",
+      imgUrl: "/team-odessa.gif",
     },
     {
       title: "DJ Henners",
@@ -20,7 +20,7 @@ const userData = {
     {
       title: "ROPACS",
       link: "https://ropacs.vercel.app/",
-      imgUrl: "/ropacs.jpg",
+      imgUrl: "/ropacs.gif",
     },
     {
       title: "Alfa Society Dapp",
