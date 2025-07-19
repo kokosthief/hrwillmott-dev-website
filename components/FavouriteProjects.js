@@ -41,7 +41,7 @@ export default function FavouriteProjects() {
           >
             <div className="relative overflow-hidden">
               <img
-                src="/odessa-portal.jpg"
+                src="/team-odessa.gif"
                 alt="cue to text converter rekordbox app"
                 className="transform hover:scale-125 transition duration-3000 ease-out"
               />
@@ -79,7 +79,7 @@ export default function FavouriteProjects() {
           >
             <div className="relative overflow-hidden">
               <img
-                src="/ropacs.jpg"
+                src="/ropacs.gif"
                 alt="portfolio"
                 className="transform hover:scale-125 transition duration-3000 ease-out"
               />
