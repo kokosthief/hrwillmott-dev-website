@@ -47,23 +47,14 @@ export default function AboutMe() {
             </div>
             <div className="mt-8">
               <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
-                Job Opportunities
+                Collaboration
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                Whilst I continue to develop my tech stack I'm open to new
-                opportunities. Ideally I'd love a Junior Dev role where I can
-                delve deep into a problems to solve, ideally with some
-                mentorship. <br />
+                Always working on something and having fun doing it.
                 <br />
-                Check my{" "}
-                <a
-                  href={userData.resumeUrl}
-                  target="__blank"
-                  className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
-                >
-                  CV
-                </a>{" "}
-                to see what I'm up to.
+                Wanna connect and build together? 
+                <br />
+                I'm always open to have a chat and see what we can create.
               </p>
             </div>
             {/* Social Links */}
