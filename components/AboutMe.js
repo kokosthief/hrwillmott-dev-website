@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import userData from "@constants/data";
 
 export default function AboutMe() {
@@ -61,35 +62,7 @@ export default function AboutMe() {
             <h1 className="text-xl font-semibold text-gray-700 mt-8 dark:text-gray-200">
               Social Links
             </h1>
-            <div className="mt-4 ml-4">
-              <div className="flex flex-row justify-start items-center">
-                <a
-                  href={userData.socialLinks.twitter}
-                  className="flex flex-row items-center space-x-4 group"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div className="my-4">&rarr;</div>
-                  <div className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
-                    Twitter
-                  </div>
-                </a>
-              </div>
-              <div className="flex flex-row justify-start items-center">
-                <a
-                  href={userData.socialLinks.linkedin}
-                  className="flex flex-row items-center space-x-4 group"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div className="my-4">&rarr;</div>
-                  <div className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
-                    LinkedIn
-                  </div>
-                </a>
-              </div>
+            <div className="mt-4 space-y-4">
               <div className="flex flex-row justify-start items-center">
                 <a
                   href={userData.socialLinks.github}
@@ -145,52 +118,88 @@ export default function AboutMe() {
               Tech Stack
             </h1>
             <div className="flex flex-row flex-wrap mt-8">
-              <img
+              <Image
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
+                alt="JavaScript logo"
+                width={80}
+                height={80}
                 className="h-20 w-20 mx-4 my-4"
               />
-              {/* <img
+              {/* <Image
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"
+                alt="Java logo"
+                width={80}
+                height={80}
                 className="h-20 w-20 mx-4 my-4"
               /> */}
-              <img
+              <Image
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
+                alt="TypeScript logo"
+                width={80}
+                height={80}
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
+              <Image
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
+                alt="HTML5 logo"
+                width={80}
+                height={80}
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
+              <Image
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
+                alt="CSS3 logo"
+                width={80}
+                height={80}
                 className="h-20 w-20 mx-4 my-4"
               />
-              {/* <img
+              {/* <Image
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png"
+                alt="Angular logo"
+                width={80}
+                height={80}
                 className="h-20 w-20 mx-4 my-4"
               /> */}
-              <img
+              <Image
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png"
+                alt="Vue.js logo"
+                width={80}
+                height={80}
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
+              <Image
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
+                alt="Git logo"
+                width={80}
+                height={80}
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
+              <Image
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
+                alt="React logo"
+                width={80}
+                height={80}
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
+              <Image
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
+                alt="Firebase logo"
+                width={80}
+                height={80}
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
+              <Image
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"
+                alt="MySQL logo"
+                width={80}
+                height={80}
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
+              <Image
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
+                alt="MongoDB logo"
+                width={80}
+                height={80}
                 className="h-20 w-20 mx-4 my-4"
               />
             </div>

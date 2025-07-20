@@ -1,7 +1,7 @@
 const userData = {
   githubUsername: "kokosthief",
   name: "Henry Willmott",
-  designation: "Full-Stack Developer",
+  designation: "Full-Stack Dev & Context Engineer",
   avatarUrl: "/avatar.png",
   email: "hello@hrwillmott.com",
   phone: "+31683421604",
@@ -78,7 +78,7 @@ const userData = {
       
       "Whether it’s building a full-scale app or optimizing workflows, I thrive on solving problems and saving time for teams.",  
       
-      "My current project, the Odessa Amsterdam Staff Portal, helps DJs and managers schedule effortlessly so they can focus on creating unforgettable experiences.",  
+      "My last project, the Odessa Amsterdam Staff Portal, helps DJs and managers schedule effortlessly so they can focus on creating unforgettable experiences.",  
       
       "Coding isn’t just my skill—it’s how I make businesses run smarter and smoother.", 
     ],
@@ -88,7 +88,7 @@ const userData = {
   },
   experience: [
     {
-      title: "All Round Full-Stack Developer",
+      title: "All Round Full-Stack Developer & Context Engineer",
       company: "HRW",
       year: "2024",
       companyLink: "https://www.linkedin.com/in/henrywillmott/",

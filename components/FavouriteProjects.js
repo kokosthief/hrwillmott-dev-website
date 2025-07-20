@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function FavouriteProjects() {
@@ -41,9 +42,11 @@ export default function FavouriteProjects() {
             style={{ gridColumn: "1 / -1" }} // <-- This forces the card to span all columns
           >
             <div className="relative overflow-hidden w-full h-full">
-              <img
+              <Image
                 src="/team-odessa.gif"
-                alt="cue to text converter rekordbox app"
+                alt="Odessa Team Management App screenshot"
+                width={1200}
+                height={600}
                 className="w-full h-full object-cover transform hover:scale-125 transition duration-3000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-cyan-700 rounded-md px-2">
@@ -60,9 +63,11 @@ export default function FavouriteProjects() {
             className="w-full block col-span-1 shadow-2xl"
           >
             <div className="relative overflow-hidden">
-              <img
+              <Image
                 src="/ropacs.gif"
-                alt="portfolio"
+                alt="ROPACS Rope Access project screenshot"
+                width={400}
+                height={300}
                 className="transform hover:scale-125 transition duration-3000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-cyan-700 rounded-lg px-2">
@@ -79,9 +84,11 @@ export default function FavouriteProjects() {
             className="w-full block col-span-1 sm:col-span-1 object-cover"
           >
             <div className="relative overflow-hidden shadow-2xl">
-              <img
+              <Image
                 src="/drbt-documentation.jpeg"
-                alt="drbt documentation"
+                alt="DeFi-Robot Documentation screenshot"
+                width={400}
+                height={300}
                 className="transform hover:scale-125 transition duration-3000 ease-out object-cover shadow-2xl"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-cyan-700 rounded-md px-2">
@@ -98,9 +105,11 @@ export default function FavouriteProjects() {
             className="w-full block col-span-1 sm:col-span-1 shadow-2xl"
           >
             <div className="relative overflow-hidden">
-              <img
+              <Image
                 src="/roetz.gif"
-                alt="roetz-bike landing page"
+                alt="Roetz-Bikes Landing Page screenshot"
+                width={400}
+                height={300}
                 className="transform hover:scale-125 transition duration-3000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-cyan-700 rounded-md px-2">
