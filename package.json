@@ -8,8 +8,8 @@
     "start": "next start"
   },
   "dependencies": {
-    "axios": "^0.21.1",
-    "next": "latest",
+    "axios": "^1.10.0",
+    "next": "^15.4.2",
     "next-themes": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0",

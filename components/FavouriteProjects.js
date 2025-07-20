@@ -34,16 +34,17 @@ export default function FavouriteProjects() {
 
         {/* Grid starts here */}
         <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
-          {/* Single card */}
+           {/* Single card */}
           <a
             href="https://team.odessa.amsterdam/"
-            className="w-full block col-span-3 shadow-2xl"
+            className="block col-span-3 md:col-span-3 shadow-2xl"
+            style={{ gridColumn: "1 / -1" }} // <-- This forces the card to span all columns
           >
-            <div className="relative overflow-hidden">
+            <div className="relative overflow-hidden w-full h-full">
               <img
                 src="/team-odessa.gif"
                 alt="cue to text converter rekordbox app"
-                className="transform hover:scale-125 transition duration-3000 ease-out"
+                className="w-full h-full object-cover transform hover:scale-125 transition duration-3000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-cyan-700 rounded-md px-2">
                 Odessa Team Manaagement App
@@ -73,13 +74,11 @@ export default function FavouriteProjects() {
             </div>
           </a>
           {/* Single card */}
-
           <a
             href="https://docs.defirobot.org/"
-            className="w-full block col-span-1 sm:col-span-1  object-cover"
+            className="w-full block col-span-1 sm:col-span-1 object-cover"
           >
             <div className="relative overflow-hidden shadow-2xl">
-              {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
               <img
                 src="/drbt-documentation.jpeg"
                 alt="drbt documentation"
@@ -96,10 +95,9 @@ export default function FavouriteProjects() {
           {/* Single card */}
           <a
             href="https://web.archive.org/web/20210715154451/https://roetz-bikes.com/"
-            className="w-full block col-span-1  sm:col-span-1 shadow-2xl"
+            className="w-full block col-span-1 sm:col-span-1 shadow-2xl"
           >
             <div className="relative overflow-hidden">
-              {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
               <img
                 src="/roetz.gif"
                 alt="roetz-bike landing page"

@@ -8,7 +8,7 @@ const userData = {
   address: "Amsterdam, The Netherlands",
   projects: [
     {
-      title: "Odessa Amsterdam Staff Portal",
+      title: "Odessa Team Management App",
       link: "https://team.odessa.amsterdam/",
       imgUrl: "/team-odessa.gif",
     },
@@ -82,7 +82,7 @@ const userData = {
       
       "Coding isn’t just my skill—it’s how I make businesses run smarter and smoother.", 
     ],
-    currentProject: "Odessa Amsterdam Management Web App",
+    currentProject: "Odessa Amsterdam Team Management App",
     currentProjectUrl:
       "https://team.odessa.amsterdam/",
   },
@@ -148,9 +148,9 @@ const userData = {
     "https://docs.google.com/document/d/1BDyOEn-epkepV0qCAoAfisYJHZSisGR0GLgUAflhxJg/edit?usp=sharing",
   socialLinks: {
     linkedin: "https://www.linkedin.com/in/hrwillmott/",
-    telegram: "https://t.me/kokosthief",
-    twitter: "http://x.com/hennerrrss",
-    soundcloud: "https://soundcloud.com/henners_music",
+    telegram: "https://t.me/hennerrsss",
+    twitter: "http://x.com/hennerrsss",
+    soundcloud: "https://soundcloud.com/hennerrsss",
     github: "https://github.com/kokosthief",
   },
 };
