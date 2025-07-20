@@ -55,25 +55,6 @@ export default function FavouriteProjects() {
           </a>
           {/* Single card */}
           <a
-            href="http://portal.defirobot.org"
-            className="w-full block col-span-3 shadow-2xl"
-          >
-            <div className="relative overflow-hidden">
-              <img
-                src="/drbt-website.jpeg"
-                alt="portfolio"
-                className="transform hover:scale-125 transition duration-3000 ease-out"
-              />
-              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-cyan-700 rounded-md px-2">
-                DeFi-Robot Website
-              </h1>
-              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-                02
-              </h1>
-            </div>
-          </a>
-          {/* Single card */}
-          <a
             href="https://ropacs.vercel.app/"
             className="w-full block col-span-1 shadow-2xl"
           >
