@@ -40,8 +40,8 @@ export default function Hero() {
           <Image 
             src={userData.avatarUrl} 
             alt="Henry Willmott avatar photo" 
-            width={400}
-            height={400}
+            width={800}
+            height={600}
             sizes="(max-width: 1024px) 0vw, 400px"
             className="shadow"
             priority
