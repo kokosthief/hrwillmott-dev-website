@@ -42,6 +42,7 @@ export default function Hero() {
             alt="Henry Willmott avatar photo" 
             width={400}
             height={400}
+            sizes="(max-width: 1024px) 0vw, 400px"
             className="shadow"
             priority
           />

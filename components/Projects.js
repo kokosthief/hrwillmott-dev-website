@@ -68,6 +68,7 @@ const ProjectCard = ({ title, link, imgUrl, number }) => {
             alt={title + ' project screenshot'}
             width={600}
             height={288}
+            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 600px"
             className="transform hover:scale-110 transition duration-3000 ease-out object-cover h-full w-full"
           />
         </div>

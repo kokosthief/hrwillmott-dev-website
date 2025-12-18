@@ -50,7 +50,9 @@ export default function FavouriteProjects() {
                 alt="Odessa Team Management App screenshot"
                 width={1200}
                 height={600}
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 1200px"
                 className="w-full h-full object-cover transform hover:scale-125 transition duration-3000 ease-out"
+                priority
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-cyan-700 rounded-md px-2">
                 Odessa Team Manaagement App
@@ -72,6 +74,7 @@ export default function FavouriteProjects() {
                 alt="ROPACS Rope Access project screenshot"
                 width={400}
                 height={300}
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 400px"
                 className="transform hover:scale-125 transition duration-3000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-cyan-700 rounded-lg px-2">
@@ -94,6 +97,7 @@ export default function FavouriteProjects() {
                 alt="DeFi-Robot Documentation screenshot"
                 width={400}
                 height={300}
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 400px"
                 className="transform hover:scale-125 transition duration-3000 ease-out object-cover shadow-2xl"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-cyan-700 rounded-md px-2">
@@ -116,6 +120,7 @@ export default function FavouriteProjects() {
                 alt="Roetz-Bikes Landing Page screenshot"
                 width={400}
                 height={300}
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 400px"
                 className="transform hover:scale-125 transition duration-3000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-cyan-700 rounded-md px-2">
