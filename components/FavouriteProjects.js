@@ -45,12 +45,16 @@ export default function FavouriteProjects() {
             aria-label="Visit Odessa Team Management App"
           >
             <div className="relative overflow-hidden w-full h-full">
-              <Image
-                src="/team-odessa.gif"
-                alt="Odessa Team Management App screenshot"
+              <video
+                src="/team-odessa.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
                 width={1200}
-                height={600}
+                height={674}
                 className="w-full h-full object-cover transform hover:scale-125 transition duration-3000 ease-out"
+                aria-label="Odessa Team Management App screenshot"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-cyan-700 rounded-md px-2">
                 Odessa Team Manaagement App
@@ -67,12 +71,16 @@ export default function FavouriteProjects() {
             aria-label="Visit ROPACS Rope Access project"
           >
             <div className="relative overflow-hidden">
-              <Image
-                src="/ropacs.gif"
-                alt="ROPACS Rope Access project screenshot"
+              <video
+                src="/ropacs.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
                 width={400}
                 height={300}
-                className="transform hover:scale-125 transition duration-3000 ease-out"
+                className="w-full h-full object-cover transform hover:scale-125 transition duration-3000 ease-out"
+                aria-label="ROPACS Rope Access project screenshot"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-cyan-700 rounded-lg px-2">
                 ROPACS - Rope Access
@@ -94,6 +102,7 @@ export default function FavouriteProjects() {
                 alt="DeFi-Robot Documentation screenshot"
                 width={400}
                 height={300}
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 400px"
                 className="transform hover:scale-125 transition duration-3000 ease-out object-cover shadow-2xl"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-cyan-700 rounded-md px-2">
@@ -111,12 +120,16 @@ export default function FavouriteProjects() {
             aria-label="Visit Roetz-Bikes Landing Page"
           >
             <div className="relative overflow-hidden">
-              <Image
-                src="/roetz.gif"
-                alt="Roetz-Bikes Landing Page screenshot"
+              <video
+                src="/roetz.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
                 width={400}
                 height={300}
-                className="transform hover:scale-125 transition duration-3000 ease-out"
+                className="w-full h-full object-cover transform hover:scale-125 transition duration-3000 ease-out"
+                aria-label="Roetz-Bikes Landing Page screenshot"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-cyan-700 rounded-md px-2">
                 Roetz-Bikes Landing Page
