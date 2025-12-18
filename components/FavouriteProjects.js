@@ -13,6 +13,7 @@ export default function FavouriteProjects() {
           <Link
             href="/projects"
             className="mb-20 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700"
+            aria-label="View all projects"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -23,6 +24,7 @@ export default function FavouriteProjects() {
               stroke="4"
               strokeWidth="4"
               viewBox="0 0 16 16"
+              aria-hidden="true"
             >
               <path
                 fillRule="evenodd"
@@ -39,7 +41,8 @@ export default function FavouriteProjects() {
           <a
             href="https://team.odessa.amsterdam/"
             className="block col-span-3 md:col-span-3 shadow-2xl"
-            style={{ gridColumn: "1 / -1" }} // <-- This forces the card to span all columns
+            style={{ gridColumn: "1 / -1" }}
+            aria-label="Visit Odessa Team Management App"
           >
             <div className="relative overflow-hidden w-full h-full">
               <Image
@@ -61,6 +64,7 @@ export default function FavouriteProjects() {
           <a
             href="https://ropacs.vercel.app/"
             className="w-full block col-span-1 shadow-2xl"
+            aria-label="Visit ROPACS Rope Access project"
           >
             <div className="relative overflow-hidden">
               <Image
@@ -82,6 +86,7 @@ export default function FavouriteProjects() {
           <a
             href="https://docs.defirobot.org/"
             className="w-full block col-span-1 sm:col-span-1 object-cover"
+            aria-label="Visit DeFi-Robot Documentation"
           >
             <div className="relative overflow-hidden shadow-2xl">
               <Image
@@ -103,6 +108,7 @@ export default function FavouriteProjects() {
           <a
             href="https://web.archive.org/web/20210715154451/https://roetz-bikes.com/"
             className="w-full block col-span-1 sm:col-span-1 shadow-2xl"
+            aria-label="Visit Roetz-Bikes Landing Page"
           >
             <div className="relative overflow-hidden">
               <Image

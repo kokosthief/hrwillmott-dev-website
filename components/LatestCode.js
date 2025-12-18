@@ -17,6 +17,7 @@ export default function LatestCode({ repositories }) {
           <a
             href={`https://github.com/${userData.githubUsername}`}
             className="mb-20 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700"
+            aria-label="View my GitHub profile"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -27,6 +28,7 @@ export default function LatestCode({ repositories }) {
               stroke="4"
               strokeWidth="4"
               viewBox="0 0 16 16"
+              aria-hidden="true"
             >
               <path
                 fillRule="evenodd"
@@ -55,15 +57,16 @@ const GithubRepoCard = ({ latestRepo }) => {
       <h1 className="font-semibold text-xl dark:text-gray-200 text-gray-700">
         {latestRepo.name}
       </h1>
-      <p className="text-base font-normal my-4 text-gray-500">
+      <p className="text-base font-normal my-4 text-gray-600 dark:text-gray-400">
         {latestRepo.description}
       </p>
       <a
         href={latestRepo.clone_url}
         className="font-semibold group flex flex-row space-x-2 w-full items-center"
+        aria-label={`View ${latestRepo.name} repository on GitHub`}
       >
-        <p>View Repository </p>
-        <div className="transform  group-hover:translate-x-2 transition duration-300">
+        <p>View {latestRepo.name} Repository </p>
+        <div className="transform  group-hover:translate-x-2 transition duration-300" aria-hidden="true">
           &rarr;
         </div>
       </a>

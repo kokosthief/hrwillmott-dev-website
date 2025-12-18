@@ -35,11 +35,12 @@ export default function AboutMe() {
               <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
                 GM!
               </h1>
-              <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
+              <p className="text-lg text-gray-600 mt-4 dark:text-gray-300">
                 For any sort of enquiry, shoot a{" "}
                 <a
                   href={`mailto:${userData.email}`}
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
+                  aria-label={`Send email to ${userData.email}`}
                 >
                   mail
                 </a>{" "}
@@ -50,7 +51,7 @@ export default function AboutMe() {
               <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
                 Collaboration
               </h1>
-              <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
+              <p className="text-lg text-gray-600 mt-4 dark:text-gray-300">
                 Always working on something and having fun doing it.
                 <br />
                 Wanna connect and build together? 
@@ -71,7 +72,7 @@ export default function AboutMe() {
                   rel="noopener noreferrer"
                 >
                   <div className="my-4">&rarr;</div>
-                  <div className="text-lg text-gray-500  font-mono relative overflow-hidden dark:text-gray-300">
+                  <div className="text-lg text-gray-600  font-mono relative overflow-hidden dark:text-gray-300">
                     <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
                     GitHub
                   </div>
@@ -81,8 +82,9 @@ export default function AboutMe() {
                 <a
                   href={userData.socialLinks.instagram}
                   className="flex flex-row items-center space-x-4 group"
+                  aria-label="Instagram (inactive)"
                 >
-                  <div className="my-4">&rarr;</div>
+                  <div className="my-4" aria-hidden="true">&rarr;</div>
                   <div className="text-lg text-gray-500 line-through font-mono relative overflow-hidden dark:text-gray-700">
                     <div className="absolute h-0.5 w-full bg-gray-500 bottom-0  transition duration-300"></div>
                     Instagram
@@ -93,8 +95,9 @@ export default function AboutMe() {
                 <a
                   href={userData.socialLinks.facebook}
                   className="flex flex-row items-center space-x-4 group"
+                  aria-label="Facebook (inactive)"
                 >
-                  <div className="my-4">&rarr;</div>
+                  <div className="my-4" aria-hidden="true">&rarr;</div>
                   <div className="text-lg text-gray-500 line-through font-mono relative overflow-hidden dark:text-gray-700">
                     <div className="absolute h-0.5 w-full bg-gray-500 bottom-0 "></div>
                     Facebook

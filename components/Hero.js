@@ -54,6 +54,7 @@ export default function Hero() {
                 fill="currentColor"
                 className="bi bi-arrow-90deg-up"
                 viewBox="0 0 16 16"
+                aria-hidden="true"
               >
                 <path
                   fillRule="evenodd"
