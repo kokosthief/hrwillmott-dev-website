@@ -8,6 +8,16 @@ const userData = {
   address: "Amsterdam, The Netherlands",
   projects: [
     {
+      title: "Rope Access Network",
+      link: "https://www.ropeaccess.network/",
+      imgUrl: "/rope-access-network.gif",
+    },
+    {
+      title: "Vaarbewijs Pro App",
+      link: "https://apps.apple.com/us/app/vaarbewijs-pro/id6757110682",
+      imgUrl: "/vaarbewijs_pro_app.png",
+    },
+    {
       title: "Odessa Team Management App",
       link: "https://team.odessa.amsterdam/",
       imgUrl: "/team-odessa.gif",

@@ -92,22 +92,19 @@ export default function FavouriteProjects() {
           </a>
           {/* Single card */}
           <a
-            href="https://docs.defirobot.org/"
+            href="https://apps.apple.com/us/app/vaarbewijs-pro/id6757110682"
             className="w-full block col-span-1 sm:col-span-1 object-cover"
-            aria-label="Visit DeFi-Robot Documentation"
+            aria-label="Visit Vaarbewijs Pro App on App Store"
           >
             <div className="relative overflow-hidden shadow-2xl">
               <Image
-                src="/drbt-documentation.jpeg"
-                alt="DeFi-Robot Documentation screenshot"
+                src="/vaarbewijs_pro_app.png"
+                alt="Vaarbewijs Pro App screenshot"
                 width={400}
                 height={300}
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 400px"
                 className="transform hover:scale-125 transition duration-3000 ease-out object-cover shadow-2xl"
               />
-              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-cyan-700 rounded-md px-2">
-                DeFi-Robot Documentation
-              </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 04
               </h1>
@@ -115,24 +112,22 @@ export default function FavouriteProjects() {
           </a>
           {/* Single card */}
           <a
-            href="https://web.archive.org/web/20210715154451/https://roetz-bikes.com/"
+            href="https://www.ropeaccess.network/"
             className="w-full block col-span-1 sm:col-span-1 shadow-2xl"
-            aria-label="Visit Roetz-Bikes Landing Page"
+            aria-label="Visit Rope Access Network"
           >
             <div className="relative overflow-hidden">
-              <video
-                src="/roetz.mp4"
-                autoPlay
-                loop
-                muted
-                playsInline
+              <Image
+                src="/rope-access-network.gif"
+                alt="Rope Access Network screenshot"
                 width={400}
                 height={300}
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 400px"
                 className="w-full h-full object-cover transform hover:scale-125 transition duration-3000 ease-out"
-                aria-label="Roetz-Bikes Landing Page screenshot"
+                unoptimized
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-cyan-700 rounded-md px-2">
-                Roetz-Bikes Landing Page
+                Rope Access Network
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 05
